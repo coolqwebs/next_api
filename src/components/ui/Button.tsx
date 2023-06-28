@@ -9,9 +9,9 @@ export const buttonVariants = cva(
     variants: {
       variant: {
         default:
-          "bg-slate-100 text-white hover:bg-slate-800 dard:bg-slate-200 dark:text-slate-900 dark:hover:bg-slate-100",
+          "bg-slate-900 text-white hover:bg-slate-800 dark:bg-slate-200 dark:text-slate-900 dark:hover:bg-slate-100",
         outline:
-          "bg-slate-100 text-white hover:bg-slate-800 dard:bg-slate-200 dark:text-slate-900 dark:hover:bg-slate-100 border-slate-200 hover:bg-slate-100 dark:border-slate-700",
+          "bg-slate-900 text-white hover:bg-slate-800 dark:bg-slate-200 dark:text-slate-900 dark:hover:bg-slate-100 border-slate-200 hover:bg-slate-100 dark:border-slate-700",
         ghost:
           "bg-transparent hover:bg-slate-100 dark:hover:bg-slate-800 dark:text-slate-400 data-[state=open]:bg-transparent dark:data-[state=open]:bg-transparent",
         link: "bg-transparent dark:bg-transparent underline-offset-4 hover:underline text-slate-900 dark:text-slate-100 hover:bg-transparent dark:hover:bg-transparent",
