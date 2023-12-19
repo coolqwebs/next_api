@@ -6,7 +6,7 @@ import { Metadata } from "next";
 import { getServerSession } from "next-auth";
 import { notFound } from "next/navigation";
 
-export const metaData: Metadata = {
+const metaData: Metadata = {
   title: "Similarity API | Dashboard",
   description: "Free & open-source text similarity API",
 };

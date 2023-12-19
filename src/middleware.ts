@@ -5,8 +5,8 @@ import { withAuth } from "next-auth/middleware";
 import { NextResponse } from "next/server";
 
 const redis = new Redis({
-  url: process.env.REDIS_URL,
-  token: process.env.REDIS_SECRET,
+  url: process.env.UPSTASH_REDIS_REST_URL!,
+  token: process.env.UPSTASH_REDIS_REST_TOKEN!,
 });
 
 const ratelimit = new Ratelimit({

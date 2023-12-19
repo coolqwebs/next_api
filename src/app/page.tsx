@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 
-export const metaData: Metadata = {
+const metaData: Metadata = {
   title: "Similarity API |  Home",
   description: "Free & open-source text similarity API",
 };
